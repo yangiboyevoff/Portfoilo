@@ -1,0 +1,48 @@
+#Cant3 {
+    display: flex;
+    flex-direction: column;     
+    align-items: center;
+    justify-content: center;
+    padding: 60px 20px;
+    background-color: #ffffff; 
+}
+
+#Cant3 > h1 {
+    font-size: 32px;
+    margin-bottom: 40px;
+    color: #222;
+}
+
+.rasm1, .rasm2, .rasm3 {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    width: 100%;
+    max-width: 600px; 
+    margin: 15px 0; 
+    padding: 20px;
+    border: 1px solid #eaeaea; 
+    border-radius: 15px;
+    background-color: #fff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05); 
+    transition: all 0.3s ease;
+}
+
+/* Sichqoncha ustiga kelganda effekt */
+.rasm1:hover, .rasm2:hover, .rasm3:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.rasm1 img, .rasm2 img, .rasm3 img {
+    width: 80px;  
+    height: 80px;
+    border-radius: 50%; 
+    object-fit: contain;
+}
+
+.rasm1 h1, .rasm2 h1, .rasm3 h1 {
+    font-size: 24px;
+    color: #333;
+    margin: 0;
+}
